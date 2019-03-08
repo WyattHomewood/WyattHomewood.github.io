@@ -1,31 +1,29 @@
-ul {
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
-  float:none;
-}
-
-li:last-child {
+.topnav li {
+  float: left;
 }
 
 
-a {
+.topnav a {
   display: block;
-  padding: 8px;
+  padding: 14px 16px;
   text-align: center;
   text-decoration: none;
-
-
+  font-size: 17px;
+  font-family: arial;
 }
 
 h1.ttl{
   text-align: center;
   font-family: sans-serif;
-}
-p.aa {
-  font-size: 16px;
-  font-family: arial;
 }
