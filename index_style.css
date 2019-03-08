@@ -1,5 +1,8 @@
-nav{
-  font-size: 12px;
+ul.nav{
+  font-size: 12px
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1.ttl{
