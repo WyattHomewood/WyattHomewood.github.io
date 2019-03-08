@@ -6,6 +6,7 @@ ul {
 
 li {
   font-size: 12px;
+  display: inline;
 }
 
 h1.ttl{
