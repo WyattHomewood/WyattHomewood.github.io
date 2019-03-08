@@ -10,13 +10,12 @@
 }
 
 .topnav li {
-  vertical-align: middle;
+  float: middle;
 }
 
 
 .topnav a {
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
   padding: 6px 8px;
   text-align: center;
   text-decoration: none;
