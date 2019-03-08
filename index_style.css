@@ -2,6 +2,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: fixed;
+  top: 0;
+
 }
 
 li {
@@ -11,11 +14,15 @@ li {
 li a {
   display: block;
   padding: 8px;
+  text-align: center;
+  text-decoration: none;
+
 }
 
 h1.ttl{
   text-align: center;
 }
 p.aa {
-  font-size: 18px;
+  font-size: 32px;
+  font-family: arial;
 }
