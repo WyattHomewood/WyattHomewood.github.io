@@ -1,22 +1,23 @@
 .topnav {
   background-color: #333;
   overflow: hidden;
+  width: 100%;
 }
 
 .topnav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .topnav li {
-  display: inline-block;
-  align-items: center;
+  display: inline;
 }
 
 
 .topnav a {
-  display: inline;
+  display: inline-block;
   padding: 6px 8px;
   text-align: center;
   text-decoration: none;
