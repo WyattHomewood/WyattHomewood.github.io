@@ -2,8 +2,8 @@ ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: fixed;
-  top: 0;
+  overflow: hidden;
+  background-color: #333
 
 }
 
@@ -13,9 +13,11 @@ li {
 
 a {
   display: block;
+  color: white;
   padding: 8px;
   text-align: center;
   text-decoration: none;
+
 
 }
 
