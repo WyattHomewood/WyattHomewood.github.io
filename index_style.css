@@ -20,12 +20,17 @@ body, html {
 
 .topnav li {
   display: inline;
+  border-right: 1px solid #bbb;
+}
+
+.topnav li:last-child {
+  border-right: none:
 }
 
 
 .topnav a {
   display: inline-block;
-  padding: 6px 8px;
+  padding: 12px 14px;
   text-align: center;
   text-decoration: none;
   font-size: 17px;
@@ -33,13 +38,11 @@ body, html {
   color: #f2f2f2
 }
 
-h1.ttl{
-  text-align: center;
-  font-family: sans-serif;
+#ttl {
+  font-size: 40px;
 }
 
-.hero-image-i {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(home.jpg);
+.hero-image {
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,40 +50,24 @@ h1.ttl{
   position: relative;
 }
 
-.hero-image-a {
+#a {
   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(about.jpg);
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
-.hero-image-t {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(test.jpg);
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-image-g {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gallery.jpg);
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-image-c {
+#c {
   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(contact.jpg);
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+}
+
+#g {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gallery.jpg);
+}
+
+#i {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(home.jpg);
+}
+
+#t {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(test.jpg);
 }
 
 .hero-text {
@@ -90,4 +77,9 @@ h1.ttl{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-family: sans-serif;
+}
+
+.hero-text p {
+  font-size; 14px;
 }
