@@ -83,3 +83,29 @@ body, html {
 .hero-text p {
   font-size; 14px;
 }
+
+.footer {
+  position: absolute;
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 12px 14px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: arial;
+  color: #f2f2f2;
+}
