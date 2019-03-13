@@ -24,7 +24,7 @@ body, html {
 }
 
 .topnav li:last-child {
-  border-right: none:
+  border-right: none;
 }
 
 
@@ -80,12 +80,9 @@ body, html {
   font-family: sans-serif;
 }
 
-.hero-text p {
-  font-size; 14px;
-}
 
 .footer {
-  position: static;
+  position: fixed;
   background-color: #333;
   overflow: hidden;
   width: 100%;
@@ -102,7 +99,7 @@ body, html {
 
 .footer li {
   display: inline-block;
-  padding: 28px 14px;
+  padding: 24px 14px;
   text-align: center;
   text-decoration: none;
   font-size: 17px;
@@ -111,21 +108,114 @@ body, html {
 }
 
 #socmed {
-  height: 28px;
+  height: 24px;
   filter: brightness(0) invert(1);
 }
+.gallery {
+  padding: 20px;
+}
 
-.container {
-  margin-top: 12px;
-  margin-bottom: 12px;
+.gal-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.gal-item img {
+  margin-left: 5px;
+  max-width: 400px;
+}
+
+.wld-life {
+  font-family: sans-serif;
   text-align: center;
-  font-size: 0;
 }
 
-.container ul {
-  list-style-type: none;
+.wld-life p {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  font-size: 14px;
 }
 
-.container li {
-  display:inline-grid;
+.par-par  {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+
+.pp-txt {
+  -webkit-coloumn-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin: 10%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  vertical-align: baseline;
+}
+
+.pp-txt p {
+  margin: 0px;
+  margin-bottom: 1%;
+}
+
+.par-img {
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.pi {
+  -webkit-column-count: 2;
+      -moz-column-count: 2;
+           column-count: 2;
+   font-size: 14px;
+   margin: 10%;
+   margin-top: 2%;
+}
+
+.pi p {
+  margin: 0px;
+  margin-bottom: 1%;
+}
+
+.pi img {
+  max-width: 600px;
+  max-height: 900px;
+}
+
+.img-par {
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.ip {
+  -webkit-column-count: 2;
+      -moz-column-count: 2;
+           column-count: 2;
+  font-size: 14px;
+  margin: 10%;
+  margin-top: 2%;
+}
+.ip p {
+  margin: 0px;
+  margin-bottom: 1%;
+}
+
+.ip img {
+  max-width: 600px;
+  max-height: 500px;
+}
+
+.summary {
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.summary p {
+  margin: 10%;
+  margin-top: 2%;
+  font-size: 14px;
 }
