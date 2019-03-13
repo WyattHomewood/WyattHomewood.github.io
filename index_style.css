@@ -169,12 +169,13 @@ body, html {
   -webkit-column-count: 2;
       -moz-column-count: 2;
            column-count: 2;
-   font-size: 14px;
    margin: 10%;
    margin-top: 2%;
+   font-size: 0px;
 }
 
 .pi p {
+  font-size: 14px;
   margin: 0px;
   margin-bottom: 1%;
 }
@@ -194,11 +195,12 @@ body, html {
   -webkit-column-count: 2;
       -moz-column-count: 2;
            column-count: 2;
-  font-size: 14px;
   margin: 10%;
   margin-top: 2%;
+  font-size: 0px;
 }
 .ip p {
+  font-size: 14px;
   margin: 0px;
   margin-bottom: 1%;
 }
