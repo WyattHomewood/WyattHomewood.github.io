@@ -4,6 +4,8 @@ body, html {
   height: 100%;
 }
 
+/* navigation bar */
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -20,6 +22,7 @@ body, html {
 }
 
 .topnav li {
+  text-align: center;
   display: inline;
   border-left: 1px solid #bbb;
 }
@@ -39,7 +42,8 @@ body, html {
   color: #f2f2f2
 }
 
-#ttl {
+/* hero image */
+.ttl {
   font-size: 40px;
 }
 
@@ -60,7 +64,7 @@ body, html {
 }
 
 #g {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gallery.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gallery.jpg);
 }
 
 #i {
@@ -81,9 +85,10 @@ body, html {
   font-family: sans-serif;
 }
 
+/* footer styling */
 
 .footer {
-  position: fixed;
+  position: inherit;
   background-color: #333;
   overflow: hidden;
   width: 100%;
@@ -113,18 +118,64 @@ body, html {
   filter: brightness(0) invert(1);
 }
 
+/* home styling */
 
-.gal-item {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  columns: 3;
+.tour {
+  text-align: center;
+  font-family: arial;
+}
+
+.button {
+  margin-left: 2%;
+  background-color: #333;
+  border: none;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  width: 90px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: grey;
+  border: 2px solid #333;
+}
+
+.button h2 {
+  text-align: center;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+.tour p {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 13px;
+  margin-bottom: 2%;
+}
+/* gallery styling */
+
+.gallery {
   justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin: 10%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+
 }
 
 .gal-item img {
-  max-width: 99%;
+  width: 265px;
+  height: 265px;
 }
 
 .wld-life {
@@ -136,8 +187,11 @@ body, html {
 
 .wld-life p {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
 }
+
+/* about and hiking specific styling */
+
 
 .par-par  {
   display: inline;
@@ -146,13 +200,10 @@ body, html {
 }
 
 .pp-txt {
-  font-size: 13px;
-  -webkit-column-count: 2;
-    -moz-column-count: 2;
-  column-count: 2;
-  column-fill: auto;
-  column-width: 30%;
-  column-gap: 10px;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 30px;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
@@ -167,57 +218,58 @@ body, html {
 .par-img {
   font-family: arial;
   text-align: center;
+  margin-bottom: 5%;
+  margin: 0;
 }
 
 .pi {
-    -webkit-column-count: 2;
-      -moz-column-count: 2;
-    column-count: 2;
-    column-width: auto;
-    margin: auto;
-    margin-bottom: 5%;
-    padding: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 40px;
+  grid-template-areas:
+  "a b"
+  "a b";
 }
 
 .pi p {
-  column-span: none !important;
-  float: left;
-   margin: 0px;
-   margin-left: 20%;
-   margin-bottom: 2%;
-   font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 4%;
+  font-size: 14px;
 }
 
 .pi img {
-  width: 80%;
-  margin-right: 20%;
+  grid-area: b;
+  max-width: 90%;
 }
 
-
 .img-par {
-  font-family: sans-serif;
+  font-family: arial;
   text-align: center;
   margin-bottom: 5%;
 }
 
 .ip {
-  -webkit-column-count: 2;
-      -moz-column-count: 2;
-           column-count: 2;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  grid-column-gap: 30px;
+  grid-template-areas:
+  "a b"
+  "a b";
   margin: 10%;
   margin-top: 2%;
 }
 
 .ip p {
-  float: right;
-  font-size: 13px;
-  margin: 0px;
-  margin-bottom: 2%;
+  font-size: 14px;
+  margin-bottom: 4%;
 }
 
 .ip img {
-  max-width: 500px;
-  max-height: 500px;
+  grid-area: a;
+  width: 80%;
 }
 
 .summary {
@@ -229,9 +281,6 @@ body, html {
 .summary p {
   margin: 10%;
   margin-top: 2%;
-  font-size: 13px;
-}
-
-@@media only screen and (min-width 500px;) {
-  .pi {font-size: 14px;}
+  font-size: 14px;
+  margin-bottom: 0%;
 }
