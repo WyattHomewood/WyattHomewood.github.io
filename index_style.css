@@ -4,6 +4,13 @@ body, html {
   height: 100%;
 }
 
+.wrapper {
+  display: inline;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  min-height: 100%;
+}
+
 /* navigation bar */
 
 .topnav {
@@ -67,6 +74,10 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gallery.jpg);
 }
 
+#h {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hiking.jpg);
+}
+
 #i {
   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(home.jpg);
 }
@@ -87,13 +98,18 @@ body, html {
 
 /* footer styling */
 
+
 .footer {
-  position: inherit;
+  position: sticky;
   background-color: #333;
   overflow: hidden;
   width: 100%;
   margin: 0;
-  bottom: 0px;
+}
+
+#contact-foot {
+  position: fixed;
+  bottom: 0;
 }
 
 .footer ul {
@@ -126,7 +142,7 @@ body, html {
 }
 
 .button {
-  margin-left: 2%;
+  margin-left: 45%;
   background-color: #333;
   border: none;
   color: white;
@@ -283,4 +299,58 @@ body, html {
   margin-top: 2%;
   font-size: 14px;
   margin-bottom: 0%;
+}
+
+/* Reviews styling */
+
+.grid-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 50px;
+  margin: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.review {
+  font-family: arial;
+  font-size: 14px;
+  color: grey;
+}
+
+.rvw-txt {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+#rev-intro {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial;
+}
+
+/* contact */
+
+.contact-content {
+  text-align: center;
+  font-family: arial;
+}
+
+.contact-content p {
+  font-size: 18px;
+  margin: 10%;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.contact-content a {
+  text-decoration: none;
+}
+
+#cntc-button {
+  padding: 10px 12px;
+  margin:0;
 }
