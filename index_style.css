@@ -312,7 +312,7 @@ body, html {
   margin-bottom: 0%;
 }
 
-@media (min-resolution: 300dpi) {
+@media (min-resolution: 250dpi) {
   .pp-txt  {
       display: block;
       margin-left: 10%;
