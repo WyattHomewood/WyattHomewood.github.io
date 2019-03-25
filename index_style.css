@@ -50,6 +50,7 @@ body, html {
 }
 
 /* hero image */
+
 .ttl {
   font-size: 40px;
 }
@@ -137,12 +138,19 @@ body, html {
 /* home styling */
 
 .tour {
-  text-align: center;
   font-family: arial;
 }
 
+.sections {
+  margin-top: 4%;
+  margin-bottom: 7%;
+  display: flex;
+}
+
+
 .button {
-  margin-left: 45%;
+  position: absolute;
+  right: 3%;
   background-color: #333;
   border: none;
   color: white;
@@ -160,7 +168,6 @@ body, html {
 }
 
 .button h2 {
-  text-align: center;
 }
 
 .button a {
@@ -169,10 +176,10 @@ body, html {
 }
 
 .tour p {
+  text-align: left;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 15%;
   font-size: 13px;
-  margin-bottom: 2%;
 }
 /* gallery styling */
 
@@ -216,7 +223,7 @@ body, html {
 }
 
 .pp-txt {
-  font-size: 14px;
+  font-size: 1rem;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-column-gap: 30px;
@@ -227,8 +234,9 @@ body, html {
 }
 
 .pp-txt p {
+  text-align: left;
   margin: 0px;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 
 .par-img {
@@ -250,9 +258,10 @@ body, html {
 }
 
 .pi p {
+  text-align: left;
   margin-top: 0px;
-  margin-bottom: 4%;
-  font-size: 14px;
+  margin-bottom: 5%;
+  font-size: 1rem;
 }
 
 .pi img {
@@ -279,8 +288,9 @@ body, html {
 }
 
 .ip p {
-  font-size: 14px;
-  margin-bottom: 4%;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 5%;
 }
 
 .ip img {
@@ -295,10 +305,33 @@ body, html {
 }
 
 .summary p {
+  text-align: left;
   margin: 10%;
   margin-top: 2%;
-  font-size: 14px;
+  font-size: 1rem;
   margin-bottom: 0%;
+}
+
+@media (min-resolution: 300dpi) {
+  .pp-txt  {
+      display: block;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  .pi {
+      display: block;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+  .ip {
+      display: block;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  .pi img {
+    width: 100%;
+  }
 }
 
 /* Reviews styling */
