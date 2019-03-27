@@ -45,7 +45,7 @@ body, html {
   padding: 18px 14px;
   text-align: center;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 24px;
   font-family: arial;
   color: #f2f2f2
 }
@@ -96,6 +96,7 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
   font-family: sans-serif;
+  font-size: 22px;
 }
 
 /* footer styling */
@@ -126,7 +127,7 @@ body, html {
   padding: 24px 14px;
   text-align: center;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 24px;
   font-family: arial;
   color: #f2f2f2;
 }
@@ -168,9 +169,6 @@ body, html {
   border: 2px solid #333;
 }
 
-.button h2 {
-}
-
 .button a {
   color: white;
   text-decoration: none;
@@ -180,7 +178,7 @@ body, html {
   text-align: left;
   margin-left: 5%;
   margin-right: 15%;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .home-img {
@@ -217,9 +215,14 @@ body, html {
   text-align: center;
 }
 
+.wld-life h2 {
+  margin: 6%;
+}
+
+
 .wld-life p {
   text-align: center;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 /* about and hiking specific styling */
@@ -270,7 +273,7 @@ body, html {
   text-align: left;
   margin-top: 0px;
   margin-bottom: 5%;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .pi img {
@@ -298,7 +301,7 @@ body, html {
 
 .ip p {
   text-align: left;
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 5%;
 }
 
@@ -317,8 +320,13 @@ body, html {
   text-align: left;
   margin: 10%;
   margin-top: 2%;
-  font-size: 1rem;
+  font-size: 17px;
   margin-bottom: 0%;
+}
+
+.about-heading  {
+
+  margin: 6%;
 }
 
 @media (min-resolution: 140dpi) and (max-width: 1440px) {
@@ -357,7 +365,7 @@ body, html {
 
 .review {
   font-family: arial;
-  font-size: 14px;
+  font-size: 17px;
   color: grey;
 }
 
@@ -372,7 +380,7 @@ body, html {
   margin-top: 4%;
   margin-bottom: 3%;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-family: arial;
 }
 
