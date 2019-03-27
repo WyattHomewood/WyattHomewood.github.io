@@ -179,8 +179,17 @@ body, html {
   text-align: left;
   margin-left: 5%;
   margin-right: 15%;
-  font-size: 13px;
+  font-size: 14px;
 }
+
+.home-img {
+  margin-top: 0%;
+  margin-left: 45%;
+  margin-right: 45%;
+  width: 150px;
+  height: 150px;
+}
+
 /* gallery styling */
 
 .gallery {
@@ -223,7 +232,7 @@ body, html {
 }
 
 .pp-txt {
-  font-size: 1rem;
+  font-size: 14px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-column-gap: 30px;
@@ -261,7 +270,7 @@ body, html {
   text-align: left;
   margin-top: 0px;
   margin-bottom: 5%;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 .pi img {
@@ -289,7 +298,7 @@ body, html {
 
 .ip p {
   text-align: left;
-  font-size: 1rem;
+  font-size: 14px;
   margin-bottom: 5%;
 }
 
@@ -312,7 +321,7 @@ body, html {
   margin-bottom: 0%;
 }
 
-@media (min-resolution: 250dpi) {
+@media (min-resolution: 140dpi) and (max-width: 1440px) {
   .pp-txt  {
       display: block;
       margin-left: 10%;
@@ -359,7 +368,9 @@ body, html {
 }
 
 #rev-intro {
-  margin-top: 2%;
+  margin: 5%;
+  margin-top: 4%;
+  margin-bottom: 3%;
   text-align: center;
   font-size: 16px;
   font-family: arial;
@@ -384,6 +395,7 @@ body, html {
 }
 
 #cntc-button {
+  position: inherit;
   padding: 10px 12px;
   margin:0;
 }
